@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
-import Loading from '../../components/Loading/Loading'
+import { Loading } from '../../components/Loading'
 
 const Login = lazy(() => import('../../pages/Public/Login/Login'))
 const Error404 = lazy(() => import('../../components/Error404/Error404'))

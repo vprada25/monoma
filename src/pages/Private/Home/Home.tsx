@@ -13,7 +13,7 @@ import styles from './Home.module.scss'
 const Home = () => {
     const { user } = useData({ reducer: KEY_AUTH })
 
-    const { data, loading, error } = useGetData(allPokemon(10, 0))
+    const { data, loading, error } = useGetData<any>(allPokemon(10, 0))
 
     const [pokemon, setPokemon] = useState<any>([])
 
