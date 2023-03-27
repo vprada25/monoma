@@ -1,0 +1,16 @@
+.login__logo {
+    display: block;
+    height: 60px;
+    margin: 0 auto 32px;
+}
+
+.login__card {
+    max-width: 420px;
+    .ant-card-body {
+        padding: 48px 32px;
+    }
+}
+
+.login__forgot-password {
+    padding: 16px 0 0 0 !important;
+}

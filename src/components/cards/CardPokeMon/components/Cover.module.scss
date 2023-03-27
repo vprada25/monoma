@@ -1,0 +1,9 @@
+.cover_gradient::after {
+    content: '';
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 130px;
+    background-image: linear-gradient(to top, #000b76, transparent);
+}
