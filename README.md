@@ -23,5 +23,18 @@ Este proyecto fue inicializado con [Vite](https://github.com/vitejs/vite).
 ```bash
   npm run dev
 ```
+
+```http
+ Usuarios
+```
+
+| Email | Password     | 
+| :-------- | :------- | 
+| `victorprada@123.com` | `victorprada` | 
+| `victor@tester.ca` | `123` | 
+
+
+
+
     
     
